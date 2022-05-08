@@ -5,9 +5,12 @@ import numpy as np
 
 st.title('Garbage Classification')
 
+with st.expander("About us:")
+st.write("Hello, we are Jan, Narin and Siyu. We are student of business informatics and are happy to attend the course ML4B and learn more about the world oft machine learning.")
 
-st.markdown('Hello, we are Jan, Narin and Siyu. Our project is to train a model to classify images of garbage correctly '
-          'and compare different approaches on different dataset sizes.', True)
+
+with st.expander ("Our Goal:")
+st. write ("Our project is to train a model to classify images of garbage correctly and compare different approaches on different dataset sizes.")
 
 # Example cardboard garbage image
 from PIL import Image
