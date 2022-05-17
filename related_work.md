@@ -19,7 +19,6 @@ https://arxiv.org/pdf/1908.04393.pdf
 
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9144549
 - Title: "An Automatic Garbage Classification System Based on Deep Learning"
-- Content: What the title says :D
 
 ## The importance of Recycling:
 https://link.springer.com/content/pdf/10.1007/s10163-011-0002-4.pdf
