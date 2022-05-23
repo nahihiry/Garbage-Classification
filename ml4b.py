@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import os
+
+dir = './Dataset/'
+labels = os.listdir(dir + '/Garbage classification/Garbage classification/')
 
 st.title('Garbage Classification')
 
