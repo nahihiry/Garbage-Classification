@@ -42,7 +42,7 @@ def chooseImage(randomNum=None):
 
     randomIdx = random.randint(0, randomNum)
 
-    image = Image.open(str(option + 1) +".jpg")
+    image = Image.open(/Dataset/Garbage classification/Garbage classification/cardboard/cardboard.jpg)
 
 
 if st.button("Get a random image from the dataset."):
