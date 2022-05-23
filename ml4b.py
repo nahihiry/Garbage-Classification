@@ -20,4 +20,5 @@ image = Image.open('cardboard1.jpg')
 
 st.image(image, caption='Example cardboard garbage image')
 
-uploaded_file = st.file_uploader("Choose an image...")
+option = st.selectbox('Choose an image', ('cardboard', 'glass', 'metal', 'paper', 'plastic'))
+st.write('You selected:', option)
