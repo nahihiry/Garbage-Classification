@@ -28,13 +28,9 @@ option = st.selectbox('Choose an image', ('cardboard', 'glass', 'metal', 'paper'
 st.write('You selected:', option)
 
 
-
-if st.button("Get a random image from the dataset."):
-    chooseImage()
-
 type_path = os.path.join(dir + 'Garbage classification/Garbage classification/', option)
 list_of_images = os.listdir(type_path)
-image_box = st.selectbox("Random Sample", list_of_images)
+image_box = st.selectbox("Sample", list_of_images)
 sample_path = os.path.join(type_path, image_box)
 image = Image.open(sample_path)
 st.image(image, caption=image_box)
