@@ -21,7 +21,6 @@ with st.expander("Our Goal:"):
 
 
 option = st.selectbox('Choose an image', ('cardboard', 'glass', 'metal', 'paper', 'plastic'))
-st.write('You selected:', option)
 
 
 type_path = os.path.join(dir + 'Garbage classification/Garbage classification/', option)
