@@ -42,7 +42,8 @@ def chooseImage(randomNum=None):
 
     randomIdx = random.randint(0, randomNum)
 
-    image = Image.open(option + randomIdx +".jpg")
+     image = Image.open(option + str(randomIdx) +".jpg")
+
 
 if st.button("Get a random image from the dataset."):
     chooseImage()
