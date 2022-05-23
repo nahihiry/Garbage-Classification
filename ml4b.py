@@ -26,3 +26,23 @@ st.image(image, caption='Example cardboard garbage image')
 
 option = st.selectbox('Choose an image', ('cardboard', 'glass', 'metal', 'paper', 'plastic'))
 st.write('You selected:', option)
+
+def chooseImage(randomNum=None):
+
+    if (option == 'cardboard'):
+        randomNum = 400
+    elif (option == 'glass'):
+        randomNum = 500
+    elif (option == 'metal'):
+        randomNum = 400
+    elif (option == 'paper'):
+        randomNum = 400
+    elif (option == 'plastic'):
+        randomNum = 500
+
+    randomIdx = random.randint(0, randomNum)
+
+    image = Image.open(option + randomIdx +".jpg")
+
+if st.button("Get a random image from the dataset."):
+    chooseImage()
