@@ -9,7 +9,7 @@ from utils import *
 labels = gen_labels()
 
 
-dir = './Dataset/'
+
 
 st.title('Garbage Classification')
 
