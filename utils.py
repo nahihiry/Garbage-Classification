@@ -5,7 +5,7 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 def gen_labels():
-    train = '../Data/Train'
+    train = '../Dataset/Train'
     train_generator = ImageDataGenerator(rescale = 1/255)
 
     train_generator = train_generator.flow_from_directory(train,
