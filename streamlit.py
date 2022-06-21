@@ -25,7 +25,7 @@ with st.expander("Our Goal:"):
         "Our project is to train a model to classify images of garbage correctly and compare different approaches on different dataset sizes.")
 
 
-st.markdown(html_temp, unsafe_allow_html=True)
+
 html_temp = '''
     <div>
     <h2></h2>
