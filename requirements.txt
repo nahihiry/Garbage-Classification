@@ -2,5 +2,5 @@ streamlit
 tensorflow
 keras
 numpy
-PIL
+Pillow==9.1.1
 urllib
