@@ -4,10 +4,11 @@ from tensorflow.keras.losses import sparse_categorical_crossentropy, binary_cros
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import numpy as np
+
 from PIL import Image
 
 def gen_labels():
-    train = '../Dataset/train'
+    train = './Dataset/train/'
     train_generator = ImageDataGenerator(rescale = 1/255)
 
     train_generator = train_generator.flow_from_directory(train,
