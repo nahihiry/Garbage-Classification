@@ -3,6 +3,8 @@ from keras.layers import Conv2D, Flatten, MaxPooling2D, Dense, Dropout, SpatialD
 from tensorflow.keras.losses import sparse_categorical_crossentropy, binary_crossentropy
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
+import numpy as np
+from PIL import Image
 
 def gen_labels():
     train = '../Dataset/Train'
