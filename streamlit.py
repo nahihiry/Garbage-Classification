@@ -24,12 +24,6 @@ with st.expander("Our Goal:"):
     st.write(
         "Our project is to train a model to classify images of garbage correctly and compare different approaches on different dataset sizes.")
 
-html_temp = '''
-    <div style =  padding-bottom: 20px; padding-top: 20px; padding-left: 5px; padding-right: 5px">
-    <center><h1>Garbage Segregation</h1></center>
-
-    </div>
-    '''
 
 st.markdown(html_temp, unsafe_allow_html=True)
 html_temp = '''
