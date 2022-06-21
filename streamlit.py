@@ -6,6 +6,9 @@ from PIL import Image
 import urllib.request
 from utils import *
 
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+
 labels = gen_labels()
 
 
