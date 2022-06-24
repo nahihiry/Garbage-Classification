@@ -2,6 +2,5 @@ streamlit
 tensorflow
 keras
 numpy
+plotly
 Pillow==9.1.1
-urllib3==1.26.9
-
