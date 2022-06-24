@@ -2,7 +2,7 @@ from pages import information, model
 import streamlit as st
 # Page Settings
 favicon = "images/favicon.ico"
-st.set_page_config(page_title="garbAIge", page_icon=favicon)
+st.set_page_config(page_title="Garbage Classification", page_icon=favicon)
 
 # Use local CSS
 def local_css(file_name):
@@ -34,7 +34,7 @@ PAGES = {
     "About The Project": information
 }
 
-st.sidebar.title('garbAIge')
+st.sidebar.title('Garbage Classification')
 selection = st.sidebar.radio("Navigate To", list(PAGES.keys()))
 page = PAGES[selection]
 page.app()
