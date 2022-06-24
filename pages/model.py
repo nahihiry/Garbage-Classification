@@ -22,7 +22,7 @@ def app():
         if button:
             prediction, predicted_class = predictor.predict(uploaded_image)
 
-            labels = {0: 'glass', 1: 'metal', 2: 'paper', 3: 'plastic', 4: 'trash'}
+            labels = {0: 'cardboard', 1: 'glass', 2: 'metal', 3: 'paper', 4: 'plastic', 5: 'trash'}
 
             classes = []
             prob = []
