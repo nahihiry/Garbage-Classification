@@ -6,6 +6,12 @@ from PIL import Image
 import urllib.request
 from utils import *
 
+<<<<<<< HEAD
+=======
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+
+>>>>>>> 0d9d9e3a81191569db926c0958467dd4ca0718d2
 labels = gen_labels()
 
 
@@ -21,6 +27,7 @@ with st.expander("Our Goal:"):
     st.write(
         "Our project is to train a model to classify images of garbage correctly and compare different approaches on different dataset sizes.")
 
+<<<<<<< HEAD
 html_temp = '''
     <div style =  padding-bottom: 20px; padding-top: 20px; padding-left: 5px; padding-right: 5px">
     <center><h1>Garbage Segregation</h1></center>
@@ -29,6 +36,10 @@ html_temp = '''
     '''
 
 st.markdown(html_temp, unsafe_allow_html=True)
+=======
+
+
+>>>>>>> 0d9d9e3a81191569db926c0958467dd4ca0718d2
 html_temp = '''
     <div>
     <h2></h2>
@@ -64,7 +75,11 @@ try:
             img = preprocess(image)
 
             model = model_arc()
+<<<<<<< HEAD
             model.load_weights("../weights/model.h5")
+=======
+            model.load_weights("./weights/model.h5")
+>>>>>>> 0d9d9e3a81191569db926c0958467dd4ca0718d2
 
             prediction = model.predict(img[np.newaxis, ...])
             st.info('Hey! The uploaded image has been classified as " {} waste " '.format(

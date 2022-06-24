@@ -2,6 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+<<<<<<< HEAD
     <mapping directory="$PROJECT_DIR$/Garbage_Segregation" vcs="Git" />
+=======
+>>>>>>> 0d9d9e3a81191569db926c0958467dd4ca0718d2
   </component>
 </project>

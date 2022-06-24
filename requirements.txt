@@ -2,5 +2,10 @@ streamlit
 tensorflow
 keras
 numpy
+<<<<<<< HEAD
 Pillow
 urllib3
+=======
+Pillow==9.1.1
+urllib3==1.26.9
+>>>>>>> 0d9d9e3a81191569db926c0958467dd4ca0718d2
