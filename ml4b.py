@@ -18,6 +18,10 @@ with st.expander("Our Goal:"):
     st.write(
         "Our project is to train a model to classify images of garbage correctly and compare different approaches on different dataset sizes.")
 
+    
+with st.expander("Business Understanding:"):
+    st.write(
+        "Climate change is a problem that young people, in particular, have been addressing over the last few years. People use vast amounts of packaging waste, etc. and thus destroy our planet step by step. The earth is full of garbage. One step to counter this problem is recycling. In Germany, fortunately, everyone is obliged to recycle properly. In other countries this is unfortunately neglected. Since it is not a compulsory task for many people, they have no idea how to recycle properly. This prevents many people from even trying, resulting in a lot of garbage ending up in our oceans.")
 
 
 option = st.selectbox('Choose an image', ('cardboard', 'glass', 'metal', 'paper', 'plastic'))
